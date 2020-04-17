@@ -1,0 +1,161 @@
+:root{
+  --space:10px;
+}
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+nav{
+  background-color: #3EB9AD;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+  padding-right: 30px;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+
+.main_section{
+  padding: 10%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../images/fondo.png");
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  padding: 20%;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -250px;
+}
+
+.content{
+  border: 5px solid black;
+}
+
+.product .content{
+  background-color: white;
+  padding: 20px;
+}
+
+.imagen{
+  padding: 15%;
+}
+
+.main_button{
+  width: 100%;
+background-color: green;
+border: 0px;
+padding: var(--space);
+font-size: 12px;
+color: white;
+cursor: pointer;
+border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #09420d;
+}
+
+.benefits{
+  display: flex;
+  padding: 10%;
+  margin-top: -230px;
+}
+
+.benefit{
+  padding: 10px;
+}
+
+.texto{
+  text-align: center;
+}
+
+.mentions{
+  display: flex;
+  padding-top: 50px;
+}
+
+.mention{
+  padding: 5px;
+}
+
+.me{
+  text-align: center;
+  margin-top: -50px;
+}
+
+footer{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.modulo-pago{
+  margin: auto;
+  border: 2px solid black;
+}
+
+.modulo-pago img{
+  margin-left: 15%;
+}
+
+.modulo-pago p{
+  padding-left:10px;
+  margin-top: -15px;
+}
+
+.modulo-pago form{
+  padding: 15px;
+}
+
+label{
+  font-size: 14px;
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.modulo-pago .main_button{
+  margin-top: 10px;
+}
+
+.contact{
+  padding-left: 100vh;
+}
