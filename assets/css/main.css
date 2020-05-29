@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+/*
+  --darkprymary-color: #F57C00;
+  --lightprymary-color: #FFE0B2;
+  --prymary-color: #FF9800;
+  --text-color: #212121;
+  --accent-color: #00BCD4;
+*/
+
+
+html{
+  font-family: Josefin Sans,sans-serif;
+}
+
+.container{
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  max-width: 960px;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  padding: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.actions{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #f5af19;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #00BCD4;
+}
+
+.title{
+  text-transform: capitalize;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.paragraph{
+  line-height: 1.8em;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-youtube{
+  color:red;
+  display: block;
+  margin: auto;
+  width: 0.1px;
+}
+
+.table{
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 80px;
+}
+
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+}
+
+
+.fa-star{
+  color: rgba(255, 222, 0, 0.82);
+}
+
+tr:nth-child(even){background: #CCC}
+
+
+.abimg{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.lcimg{
+  height: 240px;
+  width: 240px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.title-item{
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  border-bottom: 2px solid #f5af19;
+  padding-bottom: 1em;
+}
+
+.position{
+  padding: 10px;
+  background-color: #f5af19;
+  color: black;
+  border-radius: 50%;
+}
+
+@media (max-width:600px) {
+  .table td{
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  th{
+    display: none;
+  }
+}
+
+@media (min-height:550px){
+  .content{
+    height: 500px;
+  }
+}
